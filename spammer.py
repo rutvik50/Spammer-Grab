@@ -27,8 +27,7 @@ GAC_REQ_URL = 'https://p.grabtaxi.com/api/passenger/v2/profiles/register'
               default='ID')
 def main(phone_num, delay, limit, country_code):
     """
-    This script will repeatedly send Grab Activation Code (GAC) to PHONE_NUM.
-    PHONE_NUM must be a phone number in international format
+    This script will repeatedly send Grab Activation Code (GAC) to PHONer in international format
     (example: 6281323323232 with 62 prefix as the country code)
     """
     i = 0
